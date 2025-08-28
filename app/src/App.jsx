@@ -1,5 +1,6 @@
 import Login from "./Login"
 import Home from "./Home"
+import './App.css'
 
 import {BrowserRouter, Route,Routes} from 'react-router-dom'
 

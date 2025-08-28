@@ -66,3 +66,27 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+form{
+  background-color: #e5d1ff;
+  border-radius: 10px;
+  width: 300px;
+  height: 230px;
+  text-align: center;
+  padding: 20px;
+}
+
+input{
+  border-radius: 10px;
+  border-color: #8e5ad3;
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+label{
+  color: #571eb3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -17,12 +17,13 @@ return(
         <div id="Login">
         <h2>Login</h2>
         <form onSubmit={enviar}>
-            <label htmlFor="">Correo:</label>
+            <label htmlFor="">Correo:</label><br />
             <input type="Email" placeholder="miau@gmail.com" onChange={(event)=>setCorreo(event.target.value)} />
 
             <br /><br />
 
-            <label htmlFor="">Contraseña:</label>
+            <label htmlFor="">Contraseña:</label><br />
+            
             <input type="Password" placeholder="****" onChange={(event)=>setContrasena(event.target.value)}/>
 
             <br /><br />
